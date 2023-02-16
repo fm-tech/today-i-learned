@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import CatergoryList from './components/CategoryList'
+import Form from './components/Form'
+import FactList from './components/FactList'
 
 import './App.css'
 
@@ -11,7 +13,11 @@ function App() {
   return (
     <div className="App">
       <div>
+        <Form />
+      </div>
+      <div>
         <CatergoryList />
+        <FactList />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
