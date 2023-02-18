@@ -1,11 +1,11 @@
-
+import Fact from "./Fact"
 
 const FactList = () => {
     return (
     <aside>
         <ul>
-            <li><div>Catergory 1</div></li>
-            <li><div>Catergory 2</div></li>
+            <li><Fact /></li>
+            <li><Fact /></li>
         </ul>
     </aside>
     )
