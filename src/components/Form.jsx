@@ -5,7 +5,7 @@ const Form = () => {
     const [] = useState('')
 
     return (
-        <div>
+        <div className="fact-form">
             <form>
                 <input type="text"/>
                 <input type="text"/>

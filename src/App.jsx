@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className='header-title'>Today I learned</h1>
       <div>
         <Form />
       </div>

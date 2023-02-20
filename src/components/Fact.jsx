@@ -3,8 +3,8 @@
 const Fact = () => {
     return (
         <div className="fact-body">
-            <p>
-                lorem ipsum that does something when I am working the stuff that I need
+            <p className="fact">
+                Dogs can still learn new tricks even after an older age <span className="tag">#TAG</span>
             </p>
             <button>👍 <strong>0</strong></button>
             <button>🤯 <strong>3</strong></button>
